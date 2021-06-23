@@ -14,13 +14,13 @@ use Symfony\Component\Filesystem\Filesystem;
 
 final class ElFinderInstallerCommand extends Command
 {
-    private const ELFINDER_CSS_DIR    = 'vendor/studio-42/elfinder/css';
+    private const ELFINDER_CSS_DIR    = 'vendor/alxishin/elfinder/css';
 
-    private const ELFINDER_JS_DIR     = 'vendor/studio-42/elfinder/js';
+    private const ELFINDER_JS_DIR     = 'vendor/alxishin/elfinder/js';
 
-    private const ELFINDER_SOUNDS_DIR = 'vendor/studio-42/elfinder/sounds';
+    private const ELFINDER_SOUNDS_DIR = 'vendor/alxishin/elfinder/sounds';
 
-    private const ELFINDER_IMG_DIR    = 'vendor/studio-42/elfinder/img';
+    private const ELFINDER_IMG_DIR    = 'vendor/alxishin/elfinder/img';
 
     protected static $defaultName = 'elfinder:install';
 
